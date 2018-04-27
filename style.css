@@ -9,5 +9,67 @@
 
 body {
     background-color: #e6e5f3;
+
 }
 
+#Logo {
+    width: 240.2px;
+    height: 256.6px;
+    border: 3px solid black;
+    position: absolute;
+
+
+
+}
+
+#name {
+    width: 850px;
+    height: 102.7px;
+    position: absolute;
+    float: left;
+    font-size: 90px;
+    padding: 0px 5px;
+    background: white;
+    text-align: center;
+    border: 3px solid black;
+    left: 350px;
+
+}
+
+#about {
+    width: 248.4px;
+    height: 73.1px;
+
+}
+.info {
+    width: 484.7px;
+    height: 356px;
+    font-size: 24px;
+    padding: 2px 2px;
+    border: 3px solid black;
+    background-color: white;
+
+}
+
+#portfolio {
+    width: 248.4px;
+    height: 73.1px;
+
+
+}
+
+#portfolioB {
+    width: 395px;
+    height: 486px;
+    border: 3px solid black;
+    background-color: white;
+
+}
+
+#portfolioS {
+    width: 313.5;
+    height: 385px;
+    border: 3px solid black;
+    background-color: white;
+
+}
