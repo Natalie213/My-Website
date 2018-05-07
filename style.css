@@ -13,10 +13,15 @@ body {
 }
 
 #Logo {
-    width: 240.2px;
-    height: 256.6px;
+    width: 280.2px;
+    height: 296.6px;
     border: 3px solid black;
     position: absolute;
+    float: left;
+    padding: 2px 2px;
+    margin-top: 40px;
+    margin-left: 60px;
+
 
 }
 
@@ -31,44 +36,45 @@ body {
     background: white;
     text-align: center;
     border: 3px solid black;
-    left: 350px;
+    left: 550px;
     line-height: 115px;
-    top: 50px;
+    top: 75px;
 
 }
 
 #about {
     width: 248.4px;
     height: 73.1px;
-    font-size: 50px;
+    font-size: 75px;
     font-family: 'nobile';
     padding: 2px 2px;
-    margin-top: 100px;
-    margin-left: 200px;
+    margin-top: 120px;
+    margin-left: 280px;
 
 }
 .info {
     width: 484.7px;
     height: 356px;
-    font-size: 24px;
+    font-size: 29px;
     font-family: 'nobile';
     padding: 2px 2px;
     border: 3px solid black;
     background-color: white;
     position: absolute;
     float: left;
-    left: 500px;
-    top: 250px;
+    left: 700px;
+    top: 350px;
+
 }
 
 #portfolio {
     width: 248.4px;
     height: 73.1px;
-    font-size: 50px;
+    font-size: 75px;
     font-family: 'nobile';
     padding: 2px 2px;
-    margin-top: 350px;
-    margin-left: 125px;
+    margin-top: 450px;
+    margin-left: 210px;
 
 }
 
@@ -79,8 +85,7 @@ body {
     background-color: white;
     position: absolute;
     float: left;
-    left: 500px;
-
+    left: 750px;
 }
 
 #portfolioS {
@@ -88,5 +93,31 @@ body {
     height: 385px;
     border: 3px solid black;
     background-color: white;
+    position: absolute;
+    float: right;
+    right: 450px;
+    top: 400px;
 
+}
+
+#portfolioB2 {
+    width: 395px;
+    height: 486px;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    float: left;
+    left: 370px;
+    top: 150px;
+}
+
+#portfolioS2 {
+    width: 313.5;
+    height: 385px;
+    border: 3px solid black;
+    background-color: white;
+    position: absolute;
+    float: right;
+    right: 450px;
+    top: 300px;
 }
