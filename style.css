@@ -88,36 +88,89 @@ body {
     left: 750px;
 }
 
+#portfolioB {
+    position: relative;
+    width=395px;
+    height=486px;
+    margin: 0 auto;
+}
+
+#portfolioB img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#portfolioB img.top:hover {
+    opacity: 0;
+}
+
 #portfolioS {
-    width: 313.5;
-    height: 385px;
+    width: 323.5;
+    height: 375px;
     border: 3px solid black;
     background-color: white;
     position: absolute;
     float: right;
-    right: 450px;
+    right: 490px;
     top: 400px;
+}
 
+#portfolioS {
+    position: relative;
+    width=323.5px;
+    height=375px;
+    margin: 0 auto;
+}
+
+#portfolioS img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#portfolioS img.top:hover {
+    opacity: 0;
 }
 
 #portfolioB2 {
-    width: 395px;
+    width: 435px;
     height: 486px;
     border: 3px solid black;
     background-color: white;
     position: absolute;
     float: left;
-    left: 370px;
+    left: 540px;
     top: 150px;
 }
 
+#portfolioB2 {
+    position: relative;
+    width=395px;
+    height=486px;
+    margin: 0 auto;
+}
+
+#portfolioB2 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#portfolioB2 img.top:hover {
+    opacity: 0;
+}
+
 #portfolioS2 {
-    width: 313.5;
+    width: 323.5;
     height: 385px;
     border: 3px solid black;
     background-color: white;
     position: absolute;
     float: right;
-    right: 450px;
+    right: 480px;
     top: 300px;
 }
