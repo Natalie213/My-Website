@@ -107,8 +107,8 @@ body {
 }
 
 #portfolioS {
-    width: 323.5;
-    height: 375px;
+    width: 280px;
+    height: 401.81px;
     border: 3px solid black;
     background-color: white;
     position: absolute;
@@ -119,8 +119,8 @@ body {
 
 #portfolioS {
     position: relative;
-    width=323.5px;
-    height=375px;
+    width=280px;
+    height=401.81px;
     margin: 0 auto;
 }
 
@@ -142,7 +142,7 @@ body {
     background-color: white;
     position: absolute;
     float: left;
-    left: 540px;
+    left: 390px;
     top: 150px;
 }
 
@@ -165,12 +165,30 @@ body {
 }
 
 #portfolioS2 {
-    width: 323.5;
-    height: 385px;
+    width: 432px;
+    height: 288px;
     border: 3px solid black;
     background-color: white;
     position: absolute;
     float: right;
-    right: 480px;
+    right: 500px;
     top: 300px;
+}
+
+#portfolioS2 {
+    position: relative;
+    width=432px;
+    height=288px;
+    margin: 0 auto;
+}
+
+#portfolioS2 img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#portfolioS2 img.top:hover {
+    opacity: 0;
 }
